@@ -6,6 +6,7 @@
 body
 {
     margin: 0;
+    background-color: rgb(240,240,240);
 }
 
 .resizer
@@ -37,7 +38,7 @@ body
 
 header
 {
-    background-color: rgb(240,240,240);
+    
 }
 
 .article
@@ -47,7 +48,8 @@ header
 
 #title
 {
-    width: fit-content;
+    width: 100%;
+    text-align: center;
     margin: auto;
     margin-top: 40vh;
     font-size: 8vh;
@@ -69,8 +71,8 @@ header
 
 #subtitle
 {
-    width: fit-content;
-    margin: auto;
+    width: 100%;
+    text-align: center;
     margin-top: 2vh;
     font-size: 3vh;
     color: rgb(100,100,100);
