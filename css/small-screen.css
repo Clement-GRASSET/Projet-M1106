@@ -1,5 +1,32 @@
 @media screen and (max-width: 400px) {
 
-
+    #title
+    {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        margin-top: 40vh;
+        font-size: 12vw;
+        animation-name: title;
+        animation-duration: 8s;
+    }
     
+    #subtitle
+    {
+        width: 100%;
+        text-align: center;
+        margin-top: 2vh;
+        font-size: 5vw;
+        color: rgb(100,100,100);
+        animation-name: subtitle;
+        animation-duration: 10s;
+    }
+
+    footer p
+    {
+        color: white;
+        margin: 10px;
+        font-size: 3vw;
+    }
+
 }
