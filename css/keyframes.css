@@ -1,0 +1,27 @@
+@keyframes title
+{
+    0% {
+        opacity: 0%;
+        transform: scale(2);
+    }
+    100% {
+        opacity: 100%;
+        transform: scale(1);
+    }
+}
+
+@keyframes subtitle
+{
+    0% {
+        opacity: 0%;
+        transform: scale(2);
+    }
+    50% {
+        opacity: 0%;
+        transform: translate(0vh, -2vh);
+    }
+    100% {
+        opacity: 100%;
+        transform: translate(0vh, 0vh);
+    }
+}
