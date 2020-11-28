@@ -30,4 +30,12 @@
         text-align: center;
     }
 
+    .modeling_soft
+    {
+        margin: 0px;
+        padding: 25px 20px;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        flex-basis: 300px;
+    }
 }
