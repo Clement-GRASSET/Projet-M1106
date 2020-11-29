@@ -46,48 +46,9 @@
 	
 	
 
-/*menu*/
-.menu {
-  position: relative;
-  bottom:700px;
-  left:155PX;
-  width: 1.5em;
-  height: 1.5em;
-}
-
-
-
-.menu li {
-  width:5em;
-}
-
-
-.menu li:nth-of-type(1) {
-  position: absolute;
-  left: -1.2em;
-  top: -3.33em;
-}
-
-.menu li:nth-of-type(2) {
-  position: absolute;
-  left: 1.5em;
-  top: -2em;
-}
-
-.menu li:nth-of-type(3) {
-  position: absolute;
-  left: 2em;
-  top: 0.4em;
-}
-
-.menu li:nth-of-type(4) {
-  position: absolute;
-  left: 0.5em;
-  top: 2.8em;
-}
-
-
-
-
+    /*menu*/
+    .menu {
+        display: none;
+    }
 
 }

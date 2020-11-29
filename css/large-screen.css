@@ -49,11 +49,16 @@
 /*menu css*/
 
 .menu {
-  position: relative;
-  bottom:490px;
-  left:135px;
-  width: 3em;
-  height: 3em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30vh;
+  height: 30vh;
+  transform: translate(-50%, -50%);
+  background: #D3D3D3;
+  border-radius: 100%;
+  cursor: pointer;
+  border: 1em solid #808080;
 }
 
 .menu li {
