@@ -62,31 +62,34 @@
 }
 
 .menu li {
-  width: 5em;
+  width: 7em;
 }
 
 .menu li:nth-of-type(1) {
-  transform: rotate(-90deg);
+  transform: rotate(-20deg);
   position: absolute;
-  left: -1.2em;
-  top: -4.2em;
+  left: -13vh;
+  top: -17vh;
 }
 .menu li:nth-of-type(2) {
+  transform: rotate(-8deg);
   position: absolute;
-  left: 2em;
-  top: -3em;
+  left: -13vh;
+  top: -9vh;
 }
  .menu li:nth-of-type(3) {
+	 transform: rotate(8deg);
   position: absolute;
-  left: 3.4em;
-  top: 0.3em;
+  left: -13.5vh;
+  top: -2vh;
 }
 
 .menu li:nth-of-type(4) {
-  transform: rotate(45deg);
+
+  transform: rotate(20deg);
   position: absolute;
-  left: 2em;
-  top: 3.7em;
+  left: -18vh;
+  top: 5vh;
 }
 
 
