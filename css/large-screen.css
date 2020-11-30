@@ -65,30 +65,79 @@
     }
 
     .menu li {
-        width: 14vh;
-        height: 2.5vh;
+        position: absolute;
+        margin: 0;
+        width: 15vh;
+        height: 4vh;
+        transform-origin: left;
     }
 
     .menu li:nth-of-type(1) {
-        transform: rotate(0deg) translate(0, -50%);
-        left: 16vh;
+        transform: translate(0, -50%) rotate(0deg);
+        left: 15vh;
         top: 0vh;
     }
     .menu li:nth-of-type(2) {
-        transform: rotate(10deg) translate(0, -50%);
-        left: 15vh;
-        top: 4vh;
+        transform: translate(0, -50%) rotate(15deg);
+        left: 14.48vh;
+        top: 3.88vh;
     }
     .menu li:nth-of-type(3) {
-        transform: rotate(20deg) translate(0, -50%);
-        left: 14vh;
-        top: 8vh;
+        transform: translate(0, -50%) rotate(30deg);
+        left: 12.99vh;
+        top: 7.5vh;
+    }
+    .menu li:nth-of-type(4) {
+        transform: translate(0, -50%) rotate(45deg);
+        left: 10.61vh;
+        top: 10.61vh;
     }
 
-    .menu li:nth-of-type(4) {
-        transform: rotate(30deg) translate(0, -50%);
-        left: 11.5vh;
-        top: 11.5vh;
+    .menu li a 
+    {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 50%;
+        transform: translateY(-50%);
+        color: rgb(230, 230, 230);
+        text-decoration: none;
+        text-align: center;
+        font-size: 2vh;
+    }
+
+    .menu li:hover a
+    {
+        color: white;
+    }
+    
+    .menu:hover ul::before {
+        position: absolute;
+        display: block;
+        left: 50%;
+        z-index: -1;
+        cursor: default;
+    }
+    
+    .menu ul {
+        list-style: none;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        padding: 0;
+        margin: 0;
+        transform: rotate(90deg) scale(0.7);
+        transition: 100ms all;
+        opacity: 0;
+    }
+
+    .menu:hover ul {
+        transform: rotate(20deg) scale(1);
+        opacity: 1;
+    }
+    
+    .hint {
+        text-align: left;
     }
 
 }

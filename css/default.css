@@ -67,17 +67,6 @@ h2
     height: auto;
 }
 
-a{
-	float: right;
-	text-decoration: none;
-	color: #808080;	
-}
-a:hover {
-  text-decoration: none;
-  color: white;
-  background: #808080;
-}
-
 .article
 {
     
@@ -135,78 +124,3 @@ a:hover {
 {
     text-align: justify;
 }
-
-
-
-
-/*menu*/
-
-.menu ul {
-    list-style: none;
-    padding: 0;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    padding: 0;
-    margin: 0;
-}
-
-.menu li {
-    text-align: left;
-    border-top-right-radius: 0.5em;
-    border-bottom-right-radius: 0.5em;
-    transition: all 1s;
-    background: #808080;
-    opacity: 1;
-    z-index: -1;
-    position: absolute;
-    margin: 0;
-}
-
-.menu:hover li {
-    opacity: 1;
-}
-
-.menu:hover ul::before {
-    position: absolute;
-
-    width: 10;
-    height: 10;
-    display: block;
-    left: 50%;
-    top: -5.0em;
-    border-width: 30px;
-    border-radius: 0 7.5em 7.5em 0;
-    border-left: 0;
-    border-style: solid;
-    border-color:  rgb(240,240,240);
-    z-index: -1;           
-    cursor: default;
-}
-.menu a {
-    color: white;
-    text-decoration: none;
-}
-
-.menu ul {
-    transform: rotate(90deg);
-    transition: 1s all;
-    opacity: 0;
-}
-.menu:hover ul {
-    transform: rotate(20deg);
-    opacity: 1;
-}
-.menu li:hover {
-    background: #A9A9A9;
-    z-index: 1;
-}
-
-
-
-
-.hint {
-    text-align: left;
-}
-
-/*fin menu*/
