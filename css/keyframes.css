@@ -25,3 +25,26 @@
         transform: translate(0vh, 0vh);
     }
 }
+
+@keyframes menu
+{
+    0% {
+        border-width: 1vh;
+        border-color: #808080;
+    }
+    25% {
+        border-width: 5vh;
+        border-color: red;
+    }
+    50% {
+        border-width: 1vh;
+    }
+    75% {
+        border-width: 5vh;
+        border-color: red;
+    }
+    100% {
+        border-width: 1vh;
+        border-color: #808080;
+    }
+}

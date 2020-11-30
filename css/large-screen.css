@@ -45,23 +45,40 @@
 
     /*menu css*/
 
-    .menu {
+    .menu
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: rotate(90deg);
+    }
+
+    .menu:hover
+    {
+        transform: rotate(20deg);
+        transition-duration: 500ms;
+    }
+
+    .menu nav {
         position: absolute;
         top: 0;
         left: 0;
         width: 30vh;
         height: 30vh;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%) ;
         background: #D3D3D3;
         border-radius: 100%;
         cursor: pointer;
         border: 1vh solid #808080;
         transition-duration: 100ms;
+        animation-name: menu;
+        animation-duration: 0.75s;
     }
 
-    .menu:hover
+    .menu:hover nav
     {
         border: 15vh solid #808080;
+        transform: translate(-50%, -50%);
     }
 
     .menu li {
@@ -99,16 +116,18 @@
         width: 100%;
         height: auto;
         top: 50%;
-        transform: translateY(-50%);
+        transform: translateY(-50%) scale(1);
         color: rgb(230, 230, 230);
         text-decoration: none;
         text-align: center;
         font-size: 2vh;
+        transition-duration: 20ms;
     }
 
     .menu li:hover a
     {
         color: white;
+        transform: translateY(-50%) scale(1.05);
     }
     
     .menu:hover ul::before {
@@ -126,13 +145,13 @@
         top: 50%;
         padding: 0;
         margin: 0;
-        transform: rotate(90deg) scale(0.7);
+        transform: scale(0.7);
         transition: 100ms all;
         opacity: 0;
     }
 
     .menu:hover ul {
-        transform: rotate(20deg) scale(1);
+        transform: scale(1);
         opacity: 1;
     }
     
