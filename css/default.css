@@ -34,6 +34,18 @@ h2
     font-size: 2em;
 }
 
+.index_background
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    filter: blur(0.7vh) contrast(0.1) brightness(1.7);
+    animation-name: fade-in;
+    animation-duration: 5s;
+}
+
 .vertical-center
 {
     position: absolute;
@@ -65,11 +77,6 @@ h2
 .footer_size
 {
     height: auto;
-}
-
-.article
-{
-    
 }
 
 .button

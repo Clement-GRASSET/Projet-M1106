@@ -26,11 +26,20 @@
     }
 }
 
+@keyframes fade-in
+{
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
 @keyframes menu
 {
     0% {
         border-width: 1vh;
-        border-color: #808080;
     }
     25% {
         border-width: 5vh;
@@ -45,6 +54,5 @@
     }
     100% {
         border-width: 1vh;
-        border-color: #808080;
     }
 }
