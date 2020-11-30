@@ -1,96 +1,88 @@
 @media screen and (min-width: 1007px) {
 
-    #title
-    {
-        width: 100%;
-        text-align: center;
-        margin: auto;
-        margin-top: 40vh;
-        font-size: 8vh;
-        animation-name: title;
-        animation-duration: 8s;
-    }
-    
-    #subtitle
-    {
-        width: 100%;
-        text-align: center;
-        margin-top: 2vh;
-        font-size: 3vh;
-        color: rgb(100,100,100);
-        animation-name: subtitle;
-        animation-duration: 10s;
-    }
+  #title
+  {
+      width: 100%;
+      text-align: center;
+      margin: auto;
+      margin-top: 40vh;
+      font-size: 8vh;
+      animation-name: title;
+      animation-duration: 8s;
+  }
+  
+  #subtitle
+  {
+      width: 100%;
+      text-align: center;
+      margin-top: 2vh;
+      font-size: 3vh;
+      color: rgb(100,100,100);
+      animation-name: subtitle;
+      animation-duration: 10s;
+  }
 
-    footer p
-    {
-        color: white;
-        margin: 10px;
-    }
+  footer p
+  {
+      color: white;
+      margin: 10px;
+  }
 
-    .softwares_container
-    {
-        display: flex;
-        flex-wrap: wrap;
-    }
+  .softwares_container
+  {
+      display: flex;
+      flex-wrap: wrap;
+  }
 
-    .modeling_soft
-    {
-        margin: 20px;
-        padding: 25px 20px;
-        background-color: rgba(0, 0, 0, 0.1);
-        border-radius: 5px;
-        flex-basis: 300px;
-    }
-	
-	
-	
+  .modeling_soft
+  {
+      margin: 20px;
+      padding: 25px 20px;
+      background-color: rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      flex-basis: 300px;
+  }
+
+
+
 
 /*menu css*/
 
 .menu {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 30vh;
-  height: 30vh;
-  transform: translate(-50%, -50%);
-  background: #D3D3D3;
-  border-radius: 100%;
-  cursor: pointer;
-  border: 1em solid #808080;
+position: absolute;
+top: 0;
+left: 0;
+width: 30vh;
+height: 30vh;
+transform: translate(-50%, -50%);
+background: #D3D3D3;
+border-radius: 100%;
+cursor: pointer;
+border: 1em solid #808080;
 }
 
 .menu li {
-  width: 7em;
+width: 14vh;
+height: 2.5vh;
 }
 
 .menu li:nth-of-type(1) {
-  transform: rotate(-20deg);
-  position: absolute;
-  left: -13vh;
-  top: -17vh;
+left: 15vh;
+top: 0vh;
 }
 .menu li:nth-of-type(2) {
-  transform: rotate(-8deg);
-  position: absolute;
-  left: -13vh;
-  top: -9vh;
+transform: rotate(8deg);
+left: 14vh;
+top: 3vh;
 }
- .menu li:nth-of-type(3) {
-	 transform: rotate(8deg);
-  position: absolute;
-  left: -13.5vh;
-  top: -2vh;
+.menu li:nth-of-type(3) {
+ transform: rotate(16deg);
+ left: 13vh;
+ top: 6vh;
 }
 
 .menu li:nth-of-type(4) {
-
-  transform: rotate(20deg);
-  position: absolute;
-  left: -17vh;
-  top: 5vh;
-}
-
-
+  transform: rotate(24deg);
+  left: 12vh;
+  top: 9vh;}
 }
