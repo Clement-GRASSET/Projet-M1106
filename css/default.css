@@ -150,7 +150,7 @@ a:hover {
 
   margin-top: 20vh;
   margin-left: 50vh;
-  text-align: start;
+  text-align: left;
   border-top-right-radius: 0.5em;
   border-bottom-right-radius: 0.5em;
   transition: all 1s;
@@ -164,7 +164,7 @@ a:hover {
 
 .menu:hover ul::before {
   position: absolute;
-  content: "";
+
   width: 10;
   height: 10;
   display: block;
@@ -200,6 +200,7 @@ a:hover {
 
 
 .hint {
+	
   text-align: left;
 }
 
