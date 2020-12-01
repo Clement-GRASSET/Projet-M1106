@@ -153,6 +153,7 @@ h2
   position: absolute;
   top: 100vh;
   left: 35vh;
+ 
 }
 
 .tableaucomparatif th{
@@ -187,10 +188,10 @@ h2
 
 
 .liens a {
-	color: white; 
+	color: white;
 	text-decoration: none;
 	text-align:justify;
-	font-size: 100%;
+	font-size: 120%;
 }
 
 
@@ -200,6 +201,38 @@ h2
 	
 }
 
+.hautab
+{
+	font-weight: bold;	
+	vertical-align: center;
+	text-align: center;
+	background-color: #696969;
+	color: white;
+	font-size: 120%;
+}
+
+/*.lienretour a
+{
+	color:white;
+	text-decoration:none;
+	
+}
+
+.lienretour a:hover{
+	background-color:#D3D3D3;
+	text-decoration: #D3D3D3 wavy underline;
+}*/
 
 
+#retourtop {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  bottom: 50px;
+  right: 30px;
+}
+#retourtop img {
+  width: 40px;
+   transform: rotate(-40deg)
+}
 
