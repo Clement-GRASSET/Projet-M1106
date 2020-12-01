@@ -146,9 +146,6 @@ h2
     top: 50%;
 }
 
-
-
-
 .tableaucomparatif {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -160,9 +157,10 @@ h2
 
 .tableaucomparatif th{
 
-   height: 70px;
    vertical-align: center;
    text-align: center;
+   height: 50px;
+   
 }
 
 
@@ -170,14 +168,14 @@ h2
 .tableaucomparatif td, .tableaucomparatif th {
   border: 1px solid #ddd;
   padding: 8px;
-   height: 70px;
+   height: 40px;
    text-align: center;
    border-bottom: 1px solid #ddd;
 }
 
 .tableaucomparatif tr:nth-child(even){background-color: #D3D3D3;}
 
-.tableaucomparatif tr:hover {background-color: #ddd;}
+.tableaucomparatif tr:hover {background-color: WHITE;}
 
 .tableaucomparatif th {
   padding-top: 12px;
