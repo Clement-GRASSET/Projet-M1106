@@ -186,23 +186,19 @@ h2
 }
 
 
+.liens a {
+	color: white; 
+	text-decoration: none;
+	text-align:justify;
+	font-size: 100%;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.liens a:hover{
+	text-decoration: #D3D3D3 wavy underline;
+	color: #D3D3D3;
+	
+}
 
 
 
