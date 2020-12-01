@@ -131,3 +131,81 @@ h2
 {
     text-align: justify;
 }
+
+
+
+
+
+
+
+
+
+
+.table{
+	position: absolute;
+    top: 50%;
+}
+
+
+
+
+.tableaucomparatif {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  position: absolute;
+  top: 110vh;
+  left: 35vh;
+}
+
+.tableaucomparatif th{
+
+   height: 70px;
+   vertical-align: center;
+   text-align: center;
+}
+
+
+
+.tableaucomparatif td, .tableaucomparatif th {
+  border: 1px solid #ddd;
+  padding: 8px;
+   height: 70px;
+   text-align: center;
+   border-bottom: 1px solid #ddd;
+}
+
+.tableaucomparatif tr:nth-child(even){background-color: #D3D3D3;}
+
+.tableaucomparatif tr:hover {background-color: #ddd;}
+
+.tableaucomparatif th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #696969;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
