@@ -213,10 +213,50 @@ top = sin(angle) * 15
     text-align: left;
 }
 
-.article_size
+.article
 {
-    height: 80vh;
+    height: 500px;
+    min-height: 500px;
+    position: relative;
 }
+
+.article .carousel
+{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.article .carousel, .article .carousel-inner, .article .carousel-item, .article img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.article img
+{
+    object-fit: cover;
+}
+
+.article .description
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    min-width: 500px;
+    max-width: 800px;
+    padding: 80px 100px;
+    color: white;
+}
+
+.article .description *
 
 .comparative_size
 {
