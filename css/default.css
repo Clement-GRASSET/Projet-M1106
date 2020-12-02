@@ -283,6 +283,8 @@ top = sin(angle) * 15
 
 .button:hover
 {
+    text-decoration: none;
+    color: white;
     background-color: rgb(20, 160, 255);
 }
 
