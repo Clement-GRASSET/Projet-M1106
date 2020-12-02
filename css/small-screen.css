@@ -22,6 +22,11 @@
         animation-duration: 5s;
     }
 
+    h1
+    {
+        font-size: 2.5em;;
+    }
+
     footer p
     {
         color: white;
@@ -30,12 +35,26 @@
         text-align: center;
     }
 
+    .histoire img
+    {
+        width: 100%;
+    }
+
     .modeling_soft
     {
-        margin: 0px;
+        margin: 5px 0px;
         padding: 25px 20px;
-        background-color: rgba(0, 0, 0, 0.1);
-        border-radius: 5px;
-        flex-basis: 300px;
+        background-color: rgba(0, 0, 0, 0.05);
+        border-radius: 0px;
     }
+	
+	
+	
+    .menu nav {
+        top: 0;
+        left: 0;
+        width: 15vh;
+        height: 15vh;
+    }
+
 }
