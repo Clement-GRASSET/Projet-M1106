@@ -35,6 +35,25 @@
         text-align: center;
     }
 
+    .article
+    {
+        height: 800px;
+    }
+
+    .article .description
+    {
+        top: auto;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+        padding: 50px 10vw;
+        color: white;
+        box-sizing: content-box;
+        min-width: auto;
+        max-width: auto;
+        width: auto;
+    }
+
     .histoire img
     {
         width: 100%;

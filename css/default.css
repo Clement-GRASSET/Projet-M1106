@@ -258,6 +258,14 @@ top = sin(angle) * 15
 }
 
 .article .description *
+{
+    margin-bottom: 20px;
+}
+
+.article h2
+{
+    text-align: left;
+}
 
 .comparative_size
 {
