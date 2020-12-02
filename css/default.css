@@ -43,7 +43,7 @@ h2
     height: 100%;
     z-index: -1;
     object-fit: cover;
-    filter: blur(0.7vh) contrast(0.1) brightness(1.7);
+    filter: blur(0.8vh) contrast(0.1) brightness(1.7);
     animation-name: fade-in;
     animation-duration: 5s;
 }
@@ -253,19 +253,19 @@ top = sin(angle) * 15
     padding-bottom: 13.5px;
 }
 
-.histoire
+.pack
 {
     background-color: black;
     color: white;
 	
 }
 
-.histoire .padding
+.pack .padding
 {
     display: flex;
 }
 
-.histoire .padding div
+.pack .padding div
 {
  /*   border: solid red 3px;*/
     width: 50%;
@@ -274,18 +274,18 @@ top = sin(angle) * 15
 	
 }
 
-.histoire .padding h2{
+.pack .padding h2{
 	
 	margin-left:50px;
 	text-decoration: underline;
 	
 }
-.histoire .padding p{
+.pack .padding p{
 
 	  padding: 20px;
 	
 }
-.histoire .padding img
+.pack .padding img
 {
     display: block;
     width: 50%;
@@ -295,6 +295,59 @@ top = sin(angle) * 15
    /* border:  solid red 3px;*/
 	
 }
+
+.pack2
+{
+    background-color: #808080;
+    color: black;
+	
+}
+
+.pack2 .padding
+{
+    display: flex;
+}
+
+.pack2 .padding div
+{
+ /*   border: solid red 3px;*/
+    width: 50%;
+    box-sizing: border-box;
+	
+	
+}
+
+.pack2 .padding h2{
+	
+	margin-left:50px;
+	text-decoration: underline;
+	
+}
+.pack2 .padding p{
+
+	  padding: 20px;
+	
+}
+.pack2 .padding img
+{
+    display: block;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+   /* border:  solid red 3px;*/
+	
+}
+
+
+
+
+
+
+
+
+
+
 
 .modeling_soft_type_description
 {
