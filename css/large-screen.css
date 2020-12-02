@@ -78,6 +78,8 @@
 
     .menu:hover nav
     {
+        width: 30vh;
+        height: 30vh;
         border: 15vh solid;
         transform: translate(-50%, -50%);
     }

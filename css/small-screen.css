@@ -35,6 +35,11 @@
         text-align: center;
     }
 
+    .histoire img
+    {
+        width: 100%;
+    }
+
     .modeling_soft
     {
         margin: 5px 0px;
@@ -45,8 +50,6 @@
 	
 	
 	
-
-    /*menu*/
     .menu {
         display: none;
     }
