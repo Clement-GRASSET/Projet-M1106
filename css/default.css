@@ -283,7 +283,7 @@ top = sin(angle) * 15
 {
     display: inline-block;
     color: white;
-    background-color: rgb(0, 140, 255);
+    background-color: black;
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 5px;
@@ -294,7 +294,7 @@ top = sin(angle) * 15
 {
     text-decoration: none;
     color: white;
-    background-color: rgb(20, 160, 255);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .button:active
@@ -527,11 +527,6 @@ top = sin(angle) * 15
     transform: rotate(-40deg)
 }
 
-.placefooter
-{
-    position: absolute;
-    bottom:0;
-}
 
 
 
@@ -607,6 +602,7 @@ top = sin(angle) * 15
 
 
 
+/*Carte de droite*/
 
 
 .wrapper1 {
@@ -736,18 +732,7 @@ color: white;
   background-color: #D3D3D3;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*fin carte gauche debut carte milieu*/
 
 .wrapper {
   position:absolute;
@@ -882,9 +867,7 @@ color: white;
 }
 
 
-
-
-
+/*fin carte middle debut carte droite*/
 
 
 .wrapper3 {
@@ -945,10 +928,7 @@ color: white;
   color: #d2d2d2;
   letter-spacing: 0.1em;
 }
-.prix 
-{
-font-size: 25px;	
-}
+
 .product-text3 p {
   height: 100px;
   margin: 0 10px 0 10px;
@@ -1013,4 +993,4 @@ color: white;
   background-color: #D3D3D3;
 }
 
-
+/*fin des cartes*/
