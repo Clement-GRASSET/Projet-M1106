@@ -50,8 +50,11 @@
 	
 	
 	
-    .menu {
-        display: none;
+    .menu nav {
+        top: 0;
+        left: 0;
+        width: 15vh;
+        height: 15vh;
     }
 
 }
