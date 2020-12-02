@@ -85,6 +85,7 @@ h2
 
 .menu nav {
     position: absolute;
+    box-sizing: content-box;
     top: 0;
     left: 0;
     width: 30vh;
@@ -314,55 +315,51 @@ top = sin(angle) * 15
 
 
 
-
-
-
-
-.table{
+.table {
 	position: absolute;
     top: 50%;
 }
 
 .tableaucomparatif {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 70%;
-  position: absolute;
-  top: 100vh;
-  left: 35vh;
- 
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    position: absolute;
+    top: 100vh;
+    left: 35vh;
 }
 
 .tableaucomparatif th{
 
-   vertical-align: center;
-   text-align: center;
-   height: 50px;
+    vertical-align: center;
+    text-align: center;
+    height: 50px;
    
 }
 
-
-
 .tableaucomparatif td, .tableaucomparatif th {
-  border: 1px solid #ddd;
-  padding: 8px;
-   height: 40px;
-   text-align: center;
-   border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd;
+    padding: 8px;
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
 }
 
-.tableaucomparatif tr:nth-child(even){background-color: #D3D3D3;}
+.tableaucomparatif tr:nth-child(even) {
+    background-color: #D3D3D3;
+}
 
-.tableaucomparatif tr:hover {background-color: WHITE;}
+.tableaucomparatif tr:hover {
+    background-color: WHITE;
+}
 
 .tableaucomparatif th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #696969;
-  color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #696969;
+    color: white;
 }
-
 
 .liens a {
 	color: white;
@@ -371,11 +368,9 @@ top = sin(angle) * 15
 	font-size: 120%;
 }
 
-
 .liens a:hover{
 	text-decoration: #D3D3D3 wavy underline;
 	color: #D3D3D3;
-	
 }
 
 .hautab
@@ -408,15 +403,14 @@ top = sin(angle) * 15
   bottom: 50px;
   right: 30px;
 }
+
 #retourtop img {
-  width: 40px;
-   transform: rotate(-40deg)
+    width: 40px;
+    transform: rotate(-40deg)
 }
 
 .placefooter
 {
-		 position: absolute;
-		 bottom:0;
-		
-	
+    position: absolute;
+    bottom:0;
 }
