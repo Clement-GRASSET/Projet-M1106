@@ -5,39 +5,33 @@
     text-align: justify;
 }
 
-body
-{
+body{
     margin: 0;
     background-color: rgb(240,240,240);
 }
 
-header
-{
+header{
     height: 100vh;
     box-sizing: border-box;
 }
 
-header p 
-{
+header p {
     padding: 0 10vw;
     margin-top: 100px;
 }
 
-h1
-{
+h1{
     font-size: 3em;
     text-align: center;
     margin: 0px 30px;
 }
 
-h2
-{
+h2{
     margin-top: 20px;
     font-size: 2em;
 }
 
-.index_background
-{
+.index_background{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -48,29 +42,25 @@ h2
     animation-duration: 5s;
 }
 
-.vertical-center
-{
+.vertical-center{
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
 }
 
-.resizer
-{
+.resizer{
     width: 100%;
     overflow: hidden;
 }
 
-.padding
-{
+.padding{
     padding: 90px 5vw;
 
 }
 
 /*menu css*/
 
-.menu
-{
+.menu{
     position: absolute;
     top: 0;
     left: 0;
@@ -78,8 +68,7 @@ h2
     -webkit-tap-highlight-color: transparent;
 }
 
-.menu:hover
-{
+.menu:hover{
     transform: rotate(15deg);
     transition-duration: 500ms;
 }
@@ -102,8 +91,7 @@ h2
     animation-duration: 0.75s;
 }
 
-.menu:hover nav
-{
+.menu:hover nav{
     width: 30vh;
     height: 30vh;
     border: 15vh solid;
@@ -163,8 +151,7 @@ top = sin(angle) * 15
     top: 12.99vh;
 }
 
-.menu li a 
-{
+.menu li a {
     position: absolute;
     width: 100%;
     height: auto;
@@ -179,8 +166,7 @@ top = sin(angle) * 15
     transition-duration: 20ms;
 }
 
-.menu li:hover a
-{
+.menu li:hover a{
     color: white;
     transform: translateY(-50%) scale(1.05);
 }
@@ -210,19 +196,18 @@ top = sin(angle) * 15
     opacity: 1;
 }
 
+/*fin menu css*/
 .hint {
     text-align: left;
 }
 
-.article
-{
+.article{
     height: 500px;
     min-height: 500px;
     position: relative;
 }
 
-.article .carousel
-{
+.article .carousel{
     position: relative;
     top: 0;
     bottom: 0;
@@ -231,19 +216,16 @@ top = sin(angle) * 15
     z-index: 0;
 }
 
-.article .carousel, .article .carousel-inner, .article .carousel-item, .article img
-{
+.article .carousel, .article .carousel-inner, .article .carousel-item, .article img{
     width: 100%;
     height: 100%;
 }
 
-.article img
-{
+.article img{
     object-fit: cover;
 }
 
-.article .description
-{
+.article .description{
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
     position: absolute;
@@ -257,30 +239,25 @@ top = sin(angle) * 15
     color: white;
 }
 
-.article .description *
-{
+.article .description *{
     margin-bottom: 20px;
 }
 
-.article h2
-{
+.article h2{
     text-align: left;
 }
 
-.comparative_size
-{
+.comparative_size{
     height: 95vh;
 }
 
-.footer_size
-{
+.footer_size{
     height: auto;
 
 
 }
 
-.button
-{
+.button{
     display: inline-block;
     color: white;
     background-color: black;
@@ -290,35 +267,29 @@ top = sin(angle) * 15
     transition-duration: 0.2s;
 }
 
-.button:hover
-{
+.button:hover{
     text-decoration: none;
     color: white;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.button:active
-{
+.button:active{
     background-color: rgb(30, 170, 255);
     padding-top: 16.5px;
     padding-bottom: 13.5px;
 }
 
-.pack
-{
+/*partie article*/
+.pack{
     background-color: black;
     color: white;
-	
 }
 
-.pack .padding
-{
+.pack .padding{
     display: flex;
 }
 
-.pack .padding div
-{
- /*   border: solid red 3px;*/
+.pack .padding div{
     width: 50%;
     box-sizing: border-box;
 }
@@ -334,36 +305,26 @@ top = sin(angle) * 15
 	  padding: 20px;
 	
 }
-.pack .padding img
-{
+.pack .padding img{
     display: block;
     width: 50%;
     height: auto;
     padding: 20px;
-    box-sizing: border-box;
-   /* border:  solid red 3px;*/
-	
+    box-sizing: border-box;	
 }
 
-.pack2
-{
+.pack2{
     background-color: #808080;
     color: black;
-	
 }
 
-.pack2 .padding
-{
+.pack2 .padding{
     display: flex;
 }
 
-.pack2 .padding div
-{
- /*   border: solid red 3px;*/
+.pack2 .padding div{
     width: 50%;
-    box-sizing: border-box;
-	
-	
+    box-sizing: border-box;	
 }
 
 .pack2 .padding h2{
@@ -387,19 +348,10 @@ top = sin(angle) * 15
    /* border:  solid red 3px;*/
 	
 }
+/*fin part article*/
 
 
-
-
-
-
-
-
-
-
-
-.modeling_soft_type_description
-{
+.modeling_soft_type_description{
     background-image: url('../images/modeling_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -430,7 +382,7 @@ top = sin(angle) * 15
 
 
 
-
+/*tableau comparatif*/
 
 
 .table {
@@ -491,8 +443,7 @@ top = sin(angle) * 15
 	color: #D3D3D3;
 }
 
-.hautab
-{
+.hautab{
 	font-weight: bold;	
 	vertical-align: center;
 	text-align: center;
@@ -512,8 +463,11 @@ top = sin(angle) * 15
 	background-color:#D3D3D3;
 	text-decoration: #D3D3D3 wavy underline;
 }*/
+/*fin tableau*/
 
 
+
+/*fleche retour en haut*/
 #retourtop {
   position: fixed;
   width: 25px;
@@ -527,79 +481,7 @@ top = sin(angle) * 15
     transform: rotate(-40deg)
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*fin fleche retour en haut*/
 
 
 /*Carte de droite*/
@@ -612,7 +494,6 @@ top = sin(angle) * 15
   left:10vh;
   bottom:-365vh;
   border-radius: 7px 7px 7px 7px;
-  /* VIA CSS MATIC https://goo.gl/cIbnS */
   -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
@@ -648,8 +529,7 @@ top = sin(angle) * 15
   color: #474747;
 }
 
-.product-text1 h1,
-.product-price-btn-1 p {
+.product-text1 h1, .product-price-btn-1 p {
   font-family: 'Bentham', serif;
 }
 
@@ -693,13 +573,6 @@ top = sin(angle) * 15
   color: #474747;
 }
 
-span {
-  display: inline-block;
-  height: 30px;
-  font-family: 'Suranna', serif;
-  font-size: 18px;
-}
-
 .product-price-btn1 button {
   float: right;
   display: inline-block;
@@ -714,19 +587,14 @@ span {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-
   background-color: #808080;
   cursor: pointer;
   outline: none;
- 
-  
 }
-.lienacheter1{  text-align:center;}
-.lienacheter1 a
-{
-text-decoration:none;
 
-color: white;
+.lienacheter1 a {
+  text-decoration:none;
+  color: white;
 }
 .product-price-btn1 button:hover {
   background-color: #D3D3D3;
@@ -740,9 +608,7 @@ color: white;
   left:38%;
   height: 210px;
   width: 327px;
-
   border-radius: 7px 7px 7px 7px;
-  /* VIA CSS MATIC https://goo.gl/cIbnS */
   -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
@@ -778,8 +644,7 @@ color: white;
   color: #474747;
 }
 
-.product-text h1,
-.product-price-btn p {
+.product-text h1, .product-price-btn p {
   font-family: 'Bentham', serif;
 }
 
@@ -789,7 +654,7 @@ color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
- color: BLACK;
+  color: black;
   letter-spacing: 0.1em;
 }
 
@@ -823,13 +688,6 @@ color: white;
   color: #474747;
 }
 
-span {
-  display: inline-block;
-  height: 30px;
-  font-family: 'Suranna', serif;
-  font-size: 18px;
-}
-
 .product-price-btn button {
   float: right;
   display: inline-block;
@@ -844,20 +702,18 @@ span {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-
   background-color: #808080;
   cursor: pointer;
   outline: none;
  
   
 }
-.prix 
-{
-font-size: 25px;	
+
+.lienacheter{  
+text-align:center;
 }
-.lienacheter{  text-align:center;}
-.lienacheter a
-{
+
+.lienacheter a{
 text-decoration:none;
 
 color: white;
@@ -878,7 +734,6 @@ color: white;
   left:70%;
   bottom:-365vh;
   border-radius: 7px 7px 7px 7px;
-  /* VIA CSS MATIC https://goo.gl/cIbnS */
   -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
@@ -914,8 +769,7 @@ color: white;
   color: #474747;
 }
 
-.product-text3 h1,
-.product-price-btn-1 p {
+.product-text3 h1, .product-price-btn-1 p {
   font-family: 'Bentham', serif;
 }
 
@@ -952,7 +806,6 @@ color: white;
   position: absolute;
   top: -80px;
   height: 10px;
-  
   font-family: 'Trocchi', serif;
   margin: 10px 0 0 10px;
   font-size: 25px;
@@ -975,19 +828,18 @@ color: white;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-
   background-color: #808080;
   cursor: pointer;
   outline: none;
- 
-  
 }
-.lienacheter3{  text-align:center;}
-.lienacheter3 a
-{
-text-decoration:none;
 
-color: white;
+.lienacheter3{  
+	text-align:center;
+}
+
+.lienacheter3 a{
+	text-decoration:none;
+	color: white;
 }
 .product-price-btn3 button:hover {
   background-color: #D3D3D3;
