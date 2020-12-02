@@ -63,7 +63,8 @@ h2
 
 .padding
 {
-    padding: 50px 5vw;
+    padding: 90px 5vw;
+
 }
 
 /*menu css*/
@@ -256,6 +257,7 @@ top = sin(angle) * 15
 {
     background-color: black;
     color: white;
+	
 }
 
 .histoire .padding
@@ -265,11 +267,24 @@ top = sin(angle) * 15
 
 .histoire .padding div
 {
-    border: solid red 1px;
+ /*   border: solid red 3px;*/
     width: 50%;
     box-sizing: border-box;
+	
+	
 }
 
+.histoire .padding h2{
+	
+	margin-left:50px;
+	text-decoration: underline;
+	
+}
+.histoire .padding p{
+
+	  padding: 20px;
+	
+}
 .histoire .padding img
 {
     display: block;
@@ -277,7 +292,8 @@ top = sin(angle) * 15
     height: auto;
     padding: 20px;
     box-sizing: border-box;
-    border: solid red 1px;
+   /* border:  solid red 3px;*/
+	
 }
 
 .modeling_soft_type_description
@@ -414,3 +430,7 @@ top = sin(angle) * 15
     position: absolute;
     bottom:0;
 }
+
+
+
+
