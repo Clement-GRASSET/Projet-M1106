@@ -37,7 +37,7 @@
         color: white;
         box-sizing: content-box;
         min-width: auto;
-        max-width: auto;
+        max-width: 100%;
         width: auto;
     }
 
@@ -81,6 +81,16 @@
     {
         margin: 20px auto;
         width: 700px;
+    }
+
+    .comparer-creer
+    {
+        flex-wrap: wrap;
+    }
+
+    .comparer-creer-item
+    {
+        height: 500px;
     }
 
 }

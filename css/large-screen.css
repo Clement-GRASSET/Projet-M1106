@@ -42,4 +42,14 @@
         flex-basis: 400px;
     }
 
+    .comparer-creer
+    {
+        flex-wrap: nowrap;
+    }
+
+    .comparer-creer-item
+    {
+        height: 600px;
+    }
+
 }
