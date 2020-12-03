@@ -477,15 +477,40 @@ top = sin(angle) * 15
 /*fleche retour en haut*/
 #retourtop {
     position: fixed;
-    width: 25px;
-    height: 25px;
-    bottom: 50px;
-    right: 30px;
+    width: 60px;
+    height: 75px;
+    bottom: 60px;
+    right: 45px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 2;
+    transition-duration: 100ms;
+}
+
+#retourtop:hover
+{
+    background-color: rgba(20, 20, 20, 0.5);
+}
+
+#retourtop:active
+{
+    background-color: rgba(20, 20, 20, 0.5);
+    transform: scale(0.95);
+}
+
+#retourtop a
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 #retourtop img {
-    width: 40px;
-    transform: rotate(-40deg)
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    transform: scale(0.7);
 }
 
 /*fin fleche retour en haut*/
