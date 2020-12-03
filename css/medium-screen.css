@@ -61,4 +61,15 @@
         flex-basis: 300px;
     }
     
+    .pack .padding
+    {
+        display: block;
+        padding: 0;
+    }
+
+    .pack .padding div, .pack .padding img
+    {
+        width: 100%;
+    }
+
 }

@@ -52,7 +52,9 @@ h2{
     width: 100%;
     height: 100%;
     z-index: -1;
+    user-select: none;
     object-fit: cover;
+    object-position: center;
     filter: blur(0.8vh) contrast(0.1) brightness(1.7);
     animation-name: fade-in;
     animation-duration: 5s;
@@ -327,6 +329,7 @@ top = sin(angle) * 15
     height: auto;
     padding: 20px;
     box-sizing: border-box;	
+    object-fit: cover;
 }
 
 .pack2{
