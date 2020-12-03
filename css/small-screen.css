@@ -85,4 +85,28 @@
     {
         width: 100%;
     }
+
+    .printer-cards
+    {
+        display: block;
+    }
+
+    .printer-cards .wrapper
+    {
+        margin: 20px auto;
+        width: 90vw;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .printer-cards .wrapper img
+    {
+        width: 100%;
+        height: 200px;
+    }
+
+    .printer-cards .wrapper .product-info
+    {
+        width: 100%;
+    }
 }

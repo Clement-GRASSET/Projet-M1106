@@ -37,7 +37,7 @@
         color: white;
         box-sizing: content-box;
         min-width: auto;
-        max-width: auto;
+        max-width: 100%;
         width: auto;
     }
 
@@ -70,6 +70,17 @@
     .pack .padding div, .pack .padding img
     {
         width: 100%;
+    }
+
+    .printer-cards
+    {
+        display: block;
+    }
+
+    .printer-cards .wrapper
+    {
+        margin: 20px auto;
+        width: 700px;
     }
 
 }

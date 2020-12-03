@@ -70,6 +70,7 @@ h2{
 .resizer{
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 .padding{
@@ -226,7 +227,7 @@ top = sin(angle) * 15
     position: relative;
 }
 
-.article .carousel{
+.carousel-full-width {
     position: relative;
     top: 0;
     bottom: 0;
@@ -235,13 +236,15 @@ top = sin(angle) * 15
     z-index: 0;
 }
 
-.article .carousel, .article .carousel-inner, .article .carousel-item, .article img{
+.carousel-full-width, .carousel-full-width .carousel-inner, .carousel-full-width .carousel-item, .carousel-full-width img {
     width: 100%;
     height: 100%;
 }
 
-.article img{
+.carousel-full-width img{
     object-fit: cover;
+    object-position: center;
+    position: absolute;
 }
 
 .article .description{
@@ -277,23 +280,23 @@ top = sin(angle) * 15
 }
 
 .button{
-    display: inline-block;
+    display: block;
     color: white;
-    background-color: black;
+    background-color: rgb(20, 150, 255);
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 5px;
     transition-duration: 0.2s;
+    user-select: none;
 }
 
 .button:hover{
     text-decoration: none;
     color: white;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(20, 150, 255, 0.8);;
 }
 
 .button:active{
-    background-color: rgb(30, 170, 255);
     padding-top: 16.5px;
     padding-bottom: 13.5px;
 }
@@ -366,6 +369,7 @@ top = sin(angle) * 15
     font-weight: bold;
     font-size: 24px;
     margin-top: 0;
+    text-align: left;
 }
 
 .modeling_soft .description
@@ -379,17 +383,14 @@ top = sin(angle) * 15
 
 
 .table {
-	  position: sticky;
+	position: sticky;
     top: 50%;
 }
 
 .tableaucomparatif {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 70%;
-    position: sticky;
-    top: 100vh;
-    left: 35vh;
+    width: 100%;
 }
 
 .tableaucomparatif th{
@@ -479,381 +480,125 @@ top = sin(angle) * 15
 /*fin fleche retour en haut*/
 
 
-/*Carte de droite*/
-
-
-.wrapper1 {
-    display : inline-block;
-    height: 210px;
-    width: 327px;
-    position:sticky;
-    left:10vh;
-    bottom:-365vh;
-    border-radius: 7px 7px 7px 7px;
-    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+.print-examples
+{
+    height: 800px;
 }
 
-.product-img1 {
-    float: left;
-    height: 210px;
-    width: 163.5px;
-}
-
-.product-img1 img {
-    border-radius: 7px 0 0 7px;
-}
-
-.product-info1 {
-    float: left;
-    height: 210px;
-    width: 163px;
-    border-radius: 0 7px 10px 7px;
-    background-color: #ffffff;
-}
-
-.product-text1 {
-    height: 250px;
-    width: 163px;
-}
-
-.product-text1 h1 {
-    margin: -45px 0 0 10px;
-    padding-top: 52px;
-    font-size: 20px;
-    color: #474747;
-}
-
-.product-text1 h1, .product-price-btn-1 p {
-    font-family: 'Bentham', serif;
-}
-
-.product-text1 h2 {
-    margin: 0 19px 15px 40px;
-    font-size: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: BLACK;
-}
-
-.product-text1 p {
-    height: 100px;
-    margin: -5px 5px -10px 10px;
-    font-family: 'Playfair Display', serif;
-    color: #8d8d8d;
-    line-height: 1.2em;
-    font-size: 15px;
-    font-weight: lighter;
-    overflow: hidden;
-}
-
-.product-price-btn1 {
-    height: 20px;
-    width: 40px;
-    margin-top: 17px;
-    position: relative;
-}
-
-.product-price-btn1 p {
-    display: inline-block;
+.print-examples .made-with-printer
+{
+    z-index: 1;
     position: absolute;
-    top: -80px;
-    height: 10px;
-    font-family: 'Trocchi', serif;
-    margin: 10px 0 0 10px;
-    font-size: 25px;
-    font-weight: lighter;
-    color: #474747;
-}
-
-.product-price-btn1 button {
-    float: right;
-    display: inline-block;
-    height: 40px;
-    width: 70px;
-    margin: -75px -115px 0 -50px;
-    box-sizing: border-box;
-    border: transparent;
-    border-radius: 60px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 10px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    background-color: #808080;
-    cursor: pointer;
-    outline: none;
-}
-
-.lienacheter1 a {
-    text-decoration:none;
+    bottom: 0;
+    left: 0;
+    right: 0;
     color: white;
-}
-.product-price-btn1 button:hover {
-    background-color: #D3D3D3;
+    background: linear-gradient(transparent, black);
+    padding: 200px 200px 80px 200px;
 }
 
-/*fin carte gauche debut carte milieu*/
+.made-with-printer .tag
+{
+    text-align: center;
+    background-color: black;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: fit-content;
+    margin: auto;
+}
 
-.wrapper {
-    display : inline-block;
-    position:sticky;
-    bottom:-365vh;
-    left:38%;
-    height: 210px;
-    width: 327px;
-    border-radius: 7px 7px 7px 7px;
-    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+.made-with-printer h2
+{
+    text-align: center;
+}
+
+.made-with-printer .button
+{
+    margin: auto;
+    width: 120px;
+    text-align: center;
+}
+
+
+.printer-cards
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper 
+{
+    display: flex;
+    height: 300px;
+    width: 550px;
+    border-radius: 7px;
     box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    margin: 20px;
 }
 
-.product-img {
-    float: left;
-    height: 210px;
-    width: 163.5px;
+.wrapper img 
+{
+    border-radius: 7px;
+    width: 250px;
+    height: 100%;
+    object-fit: contain;
+    padding: 20px;
 }
 
-.product-img img {
-    border-radius: 7px 0 0 7px;
-}
-
-.product-info {
-    float: left;
-    height: 210px;
-    width: 163px;
-    border-radius: 0 7px 10px 7px;
+.product-info 
+{
+    height: 100%;
     background-color: #ffffff;
+    border-radius: 7px;
+    padding: 20px;
+    flex-grow: 1;
 }
 
-.product-text {
-    height: 250px;
-    width: 163px;
+.product-text 
+{
+    width: 100%;
 }
 
-.product-text h1 {
-    margin: -45px 0 0 10px;
-    padding-top: 52px;
-    font-size: 20px;
-    color: #474747;
+.product-text .name 
+{
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
-.product-text h1, .product-price-btn p {
-    font-family: 'Bentham', serif;
+.product-text .name, .product-text .brand
+{
+    text-align: center;
+    margin: 0;
 }
 
-.product-text h2 {
-    margin: 0 19px 15px 40px;
-    font-size: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: BLACK;
-}
-
-.product-text p {
-    height: 100px;
-    margin: -5px 5px -10px 10px;
-    font-family: 'Playfair Display', serif;
-    color: #8d8d8d;
-    line-height: 1.2em;
-    font-size: 15px;
-    font-weight: lighter;
-    overflow: hidden;
+.product-text .description
+{
+    margin: 20px 0px;
 }
 
 .product-price-btn {
-    height: 20px;
-    width: 40px;
+    height: auto;
+    width: 100%;
     margin-top: 17px;
     position: relative;
+    display: flex;
 }
 
 .product-price-btn p {
-    display: inline-block;
-    position: absolute;
-    top: -80px;
-    height: 10px;
-    font-family: 'Trocchi', serif;
-    margin: 10px 0 0 10px;
-    font-size: 25px;
-    font-weight: lighter;
-    color: #474747;
+    font-size: 2.2em;
+    flex-grow: 1;
+    height: 100%;
+    margin: 0;
 }
 
-.product-price-btn button {
-    float: right;
-    display: inline-block;
-    height: 40px;
-    width: 70px;
-    margin: -75px -115px 0 -50px;
-    box-sizing: border-box;
-    border: transparent;
-    border-radius: 60px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 10px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    background-color: #808080;
-    cursor: pointer;
-    outline: none;
+.product-price-btn .button {
+    width: 130px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgb(150, 150, 150);
 }
 
-.lienacheter{  
-    text-align:center;
-}
-
-.lienacheter a{
-    text-decoration:none;
-    color: white;
-}
-.product-price-btn button:hover {
-    background-color: #D3D3D3;
-}
-
-
-/*fin carte middle debut carte droite*/
-
-
-.wrapper3 {
-    margin-top:15vh;
-    display : inline-block;
-    height: 210px;
-    width: 327px;
-    position:sticky;
-    left:70%;
-    bottom:-365vh;
-    border-radius: 7px 7px 7px 7px;
-    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-}
-
-.product-img3 {
-    float: left;
-    height: 210px;
-    width: 163.5px;
-}
-
-.product-img3 img {
-    border-radius: 7px 0 0 7px;
-}
-
-.product-info3 {
-    float: left;
-    height: 210px;
-    width: 163px;
-    border-radius: 0 7px 10px 7px;
-    background-color: #ffffff;
-}
-
-.product-text3 {
-    height: 250px;
-    width: 163px;
-}
-
-.product-text3 h1 {
-    margin: -45px 0 0 10px;
-    padding-top: 52px;
-    font-size: 20px;
-    color: #474747;
-}
-
-.product-text3 h1, .product-price-btn-1 p {
-    font-family: 'Bentham', serif;
-}
-
-.product-text3 h2 {
-    margin: 0 19px 15px 40px;
-    font-size: 10px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: BLACK;
-}
-
-.product-text3 p {
-    height: 100px;
-    margin: -5px 5px -10px 10px;
-    font-family: 'Playfair Display', serif;
-    color: #8d8d8d;
-    line-height: 1.2em;
-    font-size: 15px;
-    font-weight: lighter;
-    overflow: hidden;
-}
-
-.product-price-btn3 {
-    height: 20px;
-    width: 40px;
-    margin-top: 17px;
-    position: relative;
-}
-
-.product-price-btn3 p {
-    display: inline-block;
-    position: absolute;
-    top: -80px;
-    height: 10px;
-    font-family: 'Trocchi', serif;
-    margin: 10px 0 0 10px;
-    font-size: 25px;
-    font-weight: lighter;
-    color: #474747;
-}
-
-
-.product-price-btn3 button {
-    float: right;
-    display: inline-block;
-    height: 40px;
-    width: 70px;
-    margin: -75px -115px 0 -50px;
-    box-sizing: border-box;
-    border: transparent;
-    border-radius: 60px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 10px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    background-color: #808080;
-    cursor: pointer;
-    outline: none;
-}
-
-.lienacheter3{  
-    text-align:center;
-}
-
-.lienacheter3 a{
-    text-decoration:none;
-    color: white;
-}
-.product-price-btn3 button:hover {
-    background-color: #D3D3D3;
-}
-
-/*fin des cartes*/
-
-#page {
-    min-height:100vh; /* 1 */
-    display:flex; /* 2 */
-    flex-direction:column; /* 3 */
-}
-
-#content {
-    flex-grow:3; /* 4 */
-}
-
-#footer{
-    background-color: #3F3F3F;
-    color:white;
-    margin-top:15vh;
-}
 
 .colonne{
     column-count: 3;
@@ -872,4 +617,11 @@ top = sin(angle) * 15
 }
 #droit {
    overflow:auto;
+
+.product-price-btn .button:hover {
+    width: 130px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgb(170, 170, 170);
+
 }
