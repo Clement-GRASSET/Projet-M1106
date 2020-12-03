@@ -366,6 +366,11 @@ top = sin(angle) * 15
 }
 /*fin part article*/
 
+.modeling_soft
+{
+  background-color: rgb(220, 220, 220);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
 
 .modeling_soft_type_description{
     background-image: url('../images/modeling_background.jpg');
