@@ -301,7 +301,7 @@ top = sin(angle) * 15
 /*partie article*/
 .pack{
     color: black;
-    position: flex;
+    position: relative;
 }
 
 .pack .padding{
