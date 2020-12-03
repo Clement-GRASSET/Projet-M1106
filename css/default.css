@@ -57,7 +57,15 @@ h2{
     user-select: none;
     object-fit: cover;
     object-position: center;
+}
+
+.blur
+{
     filter: blur(0.8vh) contrast(0.1) brightness(1.7);
+}
+
+.fade-in
+{
     animation-name: fade-in;
     animation-duration: 5s;
 }
