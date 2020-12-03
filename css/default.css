@@ -476,6 +476,9 @@ top = sin(angle) * 15
 	font-size: 120%;
 }
 
+.etoile{
+color:#fabf07;	
+}
 /*.lienretour a
 {
 	color:white;
@@ -886,4 +889,13 @@ color: white;
 	background-color: #3F3F3F;
 	color:white;
 	margin-top:15vh;
+}
+
+.colonne{
+ column-count: 3;
+ padding:5vh;
+}
+.aboutitre{
+	 padding-left:8vh;
+	 
 }
