@@ -301,7 +301,7 @@ top = sin(angle) * 15
 /*partie article*/
 .pack{
     color: black;
-    position: relative;
+    position: flex;
 }
 
 .pack .padding{
@@ -477,7 +477,6 @@ top = sin(angle) * 15
 
 
 
-/*fin carte gauche debut carte milieu*/
 
 .printer-cards
 {
@@ -564,30 +563,4 @@ top = sin(angle) * 15
     border-radius: 50px;
     text-align: center;
     background-color: rgb(170, 170, 170);
-}
-
-/*fin des cartes*/
-
-#page {
-    min-height:100vh; /* 1 */
-    display:flex; /* 2 */
-    flex-direction:column; /* 3 */
-}
-
-#content {
-    flex-grow:3; /* 4 */
-}
-
-#footer{
-    background-color: #3F3F3F;
-    color:white;
-    margin-top:15vh;
-}
-
-.colonne{
-    column-count: 3;
-    padding:5vh;
-}
-.aboutitre{
-    padding-left:8vh;
 }
