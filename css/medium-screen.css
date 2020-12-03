@@ -1,4 +1,4 @@
-@media screen and (min-width: 641px) and (max-width: 1007px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
 
     #title
     {
@@ -58,7 +58,7 @@
         margin: 20px;
         padding: 25px 20px;
         border-radius: 5px;
-        flex-basis: 300px;
+        flex-basis: 400px;
     }
     
     .pack .padding
