@@ -862,3 +862,14 @@ top = sin(angle) * 15
 .aboutitre{
     padding-left:8vh;
 }
+
+#global {
+   overflow:auto;
+}
+#gauche {
+   float:left;
+   width:50%;
+}
+#droit {
+   overflow:auto;
+}
