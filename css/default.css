@@ -540,7 +540,7 @@ top = sin(angle) * 15
 }
 
 .product-text1 h1 {
-  margin: -30px 0 0 10px;
+  margin: -45px 0 0 10px;
   padding-top: 52px;
   font-size: 20px;
   color: #474747;
@@ -557,12 +557,12 @@ top = sin(angle) * 15
   font-weight: 400;
   text-transform: uppercase;
   color: BLACK;
-  letter-spacing: 0.1em;
+  
 }
 
 .product-text1 p {
   height: 100px;
-  margin: 0 10px 0 10px;
+  margin: -5px 5px -10px 10px;
   font-family: 'Playfair Display', serif;
   color: #8d8d8d;
   line-height: 1.2em;
@@ -656,7 +656,7 @@ top = sin(angle) * 15
 }
 
 .product-text h1 {
-  margin: -30px 0 0 10px;
+   margin: -45px 0 0 10px;
   padding-top: 52px;
   font-size: 20px;
   color: #474747;
@@ -667,18 +667,17 @@ top = sin(angle) * 15
 }
 
 .product-text h2 {
-  margin: 0 19px 15px 40px;
+   margin: 0 19px 15px 40px;
   font-size: 10px;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  color: black;
-  letter-spacing: 0.1em;
+  color: BLACK;
 }
 
 .product-text p {
-  height: 100px;
-  margin: 0 10px 0 10px;
+   height: 100px;
+  margin: -5px 5px -10px 10px;
   font-family: 'Playfair Display', serif;
   color: #8d8d8d;
   line-height: 1.2em;
@@ -782,7 +781,7 @@ color: white;
 }
 
 .product-text3 h1 {
-  margin: -30px 0 0 10px;
+    margin: -45px 0 0 10px;
   padding-top: 52px;
   font-size: 20px;
   color: #474747;
@@ -798,13 +797,12 @@ color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  color: #d2d2d2;
-  letter-spacing: 0.1em;
+  color: BLACK;
 }
 
 .product-text3 p {
-  height: 100px;
-  margin: 0 10px 0 10px;
+    height: 100px;
+  margin: -5px 5px -10px 10px;
   font-family: 'Playfair Display', serif;
   color: #8d8d8d;
   line-height: 1.2em;
