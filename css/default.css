@@ -482,119 +482,88 @@ top = sin(angle) * 15
 .printer-cards
 {
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
 .wrapper 
 {
-    height: 250px;
-    width: 400px;
-    border-radius: 7px 7px 7px 7px;
+    height: 300px;
+    width: auto;
+    border-radius: 7px;
     box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
     margin: 20px;
-    border: solid green 1px;
 }
 
-.product-img 
+.wrapper img 
 {
-    float: left;
+    border-radius: 7px;
+    width: 250px;
     height: 100%;
-    width: 163.5px;
-    border: solid red 1px;
-}
-
-.product-img img 
-{
-    border-radius: 7px 0 0 7px;
+    object-fit: contain;
+    float: left;
+    display: block;
+    padding: 20px;
 }
 
 .product-info 
 {
     float: left;
     height: 100%;
-    width: min-content;
+    width: 300px;
     background-color: #ffffff;
-    border: solid blue 1px;
+    border-radius: 7px;
+    padding: 20px;
 }
 
-.product-text {
-    height: 250px;
-    width: 163px;
+.product-text 
+{
+    width: 100%;
 }
 
-.product-text h1 {
-    margin: -45px 0 0 10px;
-    padding-top: 52px;
-    font-size: 20px;
-    color: #474747;
+.product-text .name 
+{
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
-.product-text h2 {
-    margin: 0 19px 15px 40px;
-    font-size: 10px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: BLACK;
+.product-text .name, .product-text .brand
+{
+    text-align: center;
+    margin: 0;
 }
 
-.product-text p {
-    height: 100px;
-    margin: -5px 5px -10px 10px;
-    color: #8d8d8d;
-    line-height: 1.2em;
-    font-size: 15px;
-    font-weight: lighter;
-    overflow: hidden;
+.product-text .description
+{
+    margin: 20px 0px;
 }
 
 .product-price-btn {
-    height: 20px;
-    width: 40px;
+    height: auto;
+    width: 100%;
     margin-top: 17px;
     position: relative;
+    display: flex;
 }
 
 .product-price-btn p {
-    display: inline-block;
-    position: absolute;
-    top: -80px;
-    height: 10px;
-    font-family: 'Trocchi', serif;
-    margin: 10px 0 0 10px;
-    font-size: 25px;
-    font-weight: lighter;
-    color: #474747;
+    font-size: 2.2em;
+    flex-grow: 1;
+    height: 100%;
+    margin: 0;
 }
 
-.product-price-btn button {
-    float: right;
-    display: inline-block;
-    height: 40px;
-    width: 70px;
-    margin: -75px -115px 0 -50px;
-    box-sizing: border-box;
-    border: transparent;
-    border-radius: 60px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 10px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    background-color: #808080;
-    cursor: pointer;
-    outline: none;
+.product-price-btn .button {
+    width: 130px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgb(150, 150, 150);
 }
 
-.lienacheter {  
-    text-align:center;
-}
-
-.lienacheter a {
-    text-decoration:none;
-    color: white;
-}
-.product-price-btn button:hover {
-    background-color: #D3D3D3;
+.product-price-btn .button:hover {
+    width: 130px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgb(170, 170, 170);
 }
 
 /*fin des cartes*/
