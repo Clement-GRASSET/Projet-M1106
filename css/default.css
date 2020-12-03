@@ -5,6 +5,22 @@
     text-align: justify;
 }
 
+#page {
+	min-height:100vh; /* 1 */
+	display:flex; /* 2 */
+	flex-direction:column; /* 3 */
+}
+
+#content {
+	flex-grow:3; /* 4 */
+}
+
+#footer{
+	background-color: #3F3F3F;
+	color:white;
+	margin-top:30vh;
+}
+
 body{
     margin: 0;
     background-color: rgb(240,240,240);
@@ -386,7 +402,7 @@ top = sin(angle) * 15
 
 
 .table {
-	position: absolute;
+	position: sticky;
     top: 50%;
 }
 
@@ -394,7 +410,7 @@ top = sin(angle) * 15
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 70%;
-    position: absolute;
+    position: sticky;
     top: 100vh;
     left: 35vh;
 }
@@ -488,9 +504,10 @@ top = sin(angle) * 15
 
 
 .wrapper1 {
+  display : inline-block;
   height: 210px;
   width: 327px;
-  position:absolute;
+  position:sticky;
   left:10vh;
   bottom:-365vh;
   border-radius: 7px 7px 7px 7px;
@@ -603,7 +620,8 @@ top = sin(angle) * 15
 /*fin carte gauche debut carte milieu*/
 
 .wrapper {
-  position:absolute;
+  display : inline-block;
+  position:sticky;
   bottom:-365vh;
   left:38%;
   height: 210px;
@@ -727,10 +745,11 @@ color: white;
 
 
 .wrapper3 {
-
+  margin-top:15vh;
+  display : inline-block;
   height: 210px;
   width: 327px;
-  position:absolute;
+  position:sticky;
   left:70%;
   bottom:-365vh;
   border-radius: 7px 7px 7px 7px;
@@ -846,3 +865,19 @@ color: white;
 }
 
 /*fin des cartes*/
+
+#page {
+	min-height:100vh; /* 1 */
+	display:flex; /* 2 */
+	flex-direction:column; /* 3 */
+}
+
+#content {
+	flex-grow:3; /* 4 */
+}
+
+#footer{
+	background-color: #3F3F3F;
+	color:white;
+	margin-top:15vh;
+}
