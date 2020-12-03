@@ -70,6 +70,7 @@ h2{
 .resizer{
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 .padding{
@@ -226,7 +227,7 @@ top = sin(angle) * 15
     position: relative;
 }
 
-.article .carousel{
+.carousel-full-width {
     position: relative;
     top: 0;
     bottom: 0;
@@ -235,13 +236,15 @@ top = sin(angle) * 15
     z-index: 0;
 }
 
-.article .carousel, .article .carousel-inner, .article .carousel-item, .article img{
+.carousel-full-width, .carousel-full-width .carousel-inner, .carousel-full-width .carousel-item, .carousel-full-width img {
     width: 100%;
     height: 100%;
 }
 
-.article img{
+.carousel-full-width img{
     object-fit: cover;
+    object-position: center;
+    position: absolute;
 }
 
 .article .description{
@@ -277,23 +280,23 @@ top = sin(angle) * 15
 }
 
 .button{
-    display: inline-block;
+    display: block;
     color: white;
-    background-color: black;
+    background-color: rgb(20, 150, 255);
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 5px;
     transition-duration: 0.2s;
+    user-select: none;
 }
 
 .button:hover{
     text-decoration: none;
     color: white;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(20, 150, 255, 0.8);;
 }
 
 .button:active{
-    background-color: rgb(30, 170, 255);
     padding-top: 16.5px;
     padding-bottom: 13.5px;
 }
@@ -477,6 +480,45 @@ top = sin(angle) * 15
 /*fin fleche retour en haut*/
 
 
+.print-examples
+{
+    height: 800px;
+}
+
+.print-examples .made-with-printer
+{
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background: linear-gradient(transparent, black);
+    padding: 200px 200px 80px 200px;
+}
+
+.made-with-printer .tag
+{
+    text-align: center;
+    background-color: black;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: fit-content;
+    margin: auto;
+}
+
+.made-with-printer h2
+{
+    text-align: center;
+}
+
+.made-with-printer .button
+{
+    margin: auto;
+    width: 120px;
+    text-align: center;
+}
 
 
 .printer-cards
