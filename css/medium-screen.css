@@ -64,7 +64,7 @@
     .pack .padding
     {
         display: block;
-        padding: 0;
+        padding: 0px 10vw;
     }
 
     .pack .padding div, .pack .padding img
