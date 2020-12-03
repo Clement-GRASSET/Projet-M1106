@@ -631,7 +631,9 @@ top = sin(angle) * 15
 }
 
 .colonne{
-    column-count: 3;
+   
+	column-count: auto;
+    column-width: 60vh;
     padding:5vh;
 }
 
