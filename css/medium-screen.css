@@ -83,4 +83,14 @@
         width: 700px;
     }
 
+    .comparer-creer
+    {
+        flex-wrap: wrap;
+    }
+
+    .comparer-creer-item
+    {
+        height: 500px;
+    }
+
 }

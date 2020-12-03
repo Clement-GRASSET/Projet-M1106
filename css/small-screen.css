@@ -109,4 +109,14 @@
     {
         width: 100%;
     }
+
+    .comparer-creer
+    {
+        flex-wrap: wrap;
+    }
+
+    .comparer-creer-item
+    {
+        height: 500px;
+    }
 }

@@ -46,6 +46,7 @@ h1{
 h2{
     margin-top: 20px;
     font-size: 2em;
+    text-align: left;
 }
 
 .background-image {
@@ -288,6 +289,8 @@ top = sin(angle) * 15
     border-radius: 5px;
     transition-duration: 0.2s;
     user-select: none;
+    width: fit-content;
+    text-align: center;
 }
 
 .button:hover{
@@ -599,24 +602,14 @@ top = sin(angle) * 15
     background-color: rgb(150, 150, 150);
 }
 
-
 .colonne{
     column-count: 3;
     padding:5vh;
 }
+
 .aboutitre{
     padding-left:8vh;
 }
-
-#global {
-   overflow:auto;
-}
-#gauche {
-   float:left;
-   width:50%;
-}
-#droit {
-   overflow:auto;
 
 .product-price-btn .button:hover {
     width: 130px;
@@ -624,4 +617,17 @@ top = sin(angle) * 15
     text-align: center;
     background-color: rgb(170, 170, 170);
 
+}
+
+.comparer-creer {
+    display: flex;
+}
+
+.comparer-creer-item {
+    position: relative;
+    width: 100%;
+}
+
+.comparer-creer-item .button {
+    width: 150px;
 }
