@@ -72,4 +72,15 @@
         width: 100%;
     }
 
+    .printer-cards
+    {
+        display: block;
+    }
+
+    .printer-cards .wrapper
+    {
+        margin: 20px auto;
+        width: 700px;
+    }
+
 }
