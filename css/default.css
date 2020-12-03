@@ -378,18 +378,21 @@ top = sin(angle) * 15
 /*tableau comparatif*/
 
 
+
 .table {
+	
 	position: sticky;
     top: 50%;
+	width:180vh;
+	margin-left: auto;
+    margin-right: auto;
+	 border-collapse: collapse;
+	   font-family: Arial, Helvetica, sans-serif;
 }
 
-.tableaucomparatif {
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
 
-.tableaucomparatif th{
+
+.table th{
 
     vertical-align: center;
     text-align: center;
@@ -397,39 +400,44 @@ top = sin(angle) * 15
    
 }
 
-.tableaucomparatif td, .tableaucomparatif th {
+.table td, .table th {
     border: 1px solid #ddd;
     padding: 8px;
     height: 40px;
     text-align: center;
     border-bottom: 1px solid #ddd;
+	
+	
+	
 }
 
-.tableaucomparatif tr:nth-child(even) {
+.table tr:nth-child(even) {
     background-color: #D3D3D3;
 }
 
-.tableaucomparatif tr:hover {
+.table tr:hover {
     background-color: WHITE;
 }
 
-.tableaucomparatif th {
+.table th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
     background-color: #696969;
     color: white;
+	
+    text-align: center;
 }
 
 .liens a {
     color: white;
     text-decoration: none;
     text-align:justify;
-    font-size: 120%;
+    font-size: 110%;
+	
 }
 
 .liens a:hover{
-    text-decoration: #D3D3D3 wavy underline;
     color: #D3D3D3;
 }
 
@@ -440,11 +448,23 @@ top = sin(angle) * 15
     background-color: #696969;
     color: white;
     font-size: 120%;
+	
 }
 
 .etoile{
     color:#fabf07;	
 }
+
+
+
+
+
+
+
+
+
+	
+
 /*.lienretour a
 {
 	color:white;
