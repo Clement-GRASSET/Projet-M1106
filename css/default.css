@@ -28,6 +28,7 @@ body{
 
 header{
     height: 100vh;
+    min-height: 400px;
     box-sizing: border-box;
     position: relative;
 }
@@ -70,7 +71,8 @@ h2{
     animation-duration: 5s;
 }
 
-.vertical-center{
+.vertical-center
+{
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
