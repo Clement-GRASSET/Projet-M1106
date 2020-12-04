@@ -36,6 +36,7 @@ header{
 header p {
     padding: 0 10vw;
     margin-top: 100px;
+    text-align: center;
 }
 
 h1{
@@ -82,6 +83,11 @@ h2{
     width: 100%;
     overflow: hidden;
     position: relative;
+}
+
+.resizer .vertical-center
+{
+    width: 100%;
 }
 
 .padding{
